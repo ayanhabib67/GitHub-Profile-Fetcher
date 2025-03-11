@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h2>GitHub Profile Fetcher</h2>
+    <input type="text" id="input" placeholder="Enter GitHub username">
+    <button onclick="getData()">Fetch Profile</button>
+    
+    <div id="profile-container">
+        <img id="image" src="" alt="Profile Image" style="display:none;">
+        <h3 id="name"></h3>
+        <p id="bio"></p>
+        <p id="id"></p>
+        <p id="public_repos"></p>
+        <p id="created_at"></p>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
